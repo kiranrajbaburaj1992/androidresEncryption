@@ -73,6 +73,16 @@
   <ItemGroup>
     <AndroidAsset Include="Assets\publicKey.pem" />
     <AndroidAsset Include="Assets\privateKey.pem" />
+    <AndroidAsset Include="Assets\certificates\2048\.rnd" />
+    <AndroidAsset Include="Assets\certificates\2048\ca.crt" />
+    <AndroidAsset Include="Assets\certificates\2048\ca.key" />
+    <AndroidAsset Include="Assets\certificates\2048\ca.pfx" />
+    <AndroidAsset Include="Assets\certificates\2048\ia.key" />
+    <AndroidAsset Include="Assets\certificates\4096\.rnd" />
+    <AndroidAsset Include="Assets\certificates\4096\a.pfx" />
+    <AndroidAsset Include="Assets\certificates\4096\ca.crt" />
+    <AndroidAsset Include="Assets\certificates\4096\ca.key" />
+    <AndroidAsset Include="Assets\certificates\4096\ia.key" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
